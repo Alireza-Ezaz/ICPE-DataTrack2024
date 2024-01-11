@@ -1,0 +1,38 @@
+                                   precision    recall  f1-score   support
+
+        10_composepost_uploadtext       0.95      0.88      0.92      1953
+    11_composepost_uploaduniqueid       0.95      0.87      0.91      1992
+         12_composepost_uploadurl       0.94      0.89      0.91      2033
+ 13_composepost_uploadusermention       0.96      0.87      0.91      2049
+   14_poststorage_storepost_media       0.96      0.89      0.92      2023
+      15_usertimeline_write_media       0.95      0.86      0.90      1960
+     16_redishashset_update_media       0.94      0.88      0.91      2007
+    17_poststorage_storepost_text       0.94      0.88      0.91      2005
+       18_usertimeline_write_text       0.96      0.88      0.92      1993
+      19_redishashset_update_text       0.95      0.88      0.91      2013
+             1_nginx_compose-post       0.94      0.90      0.92      2030
+     20_poststorage_storepost_url       0.96      0.89      0.92      2079
+        21_usertimeline_write_url       0.92      0.86      0.89      1915
+       22_redishashset_update_url       0.93      0.87      0.90      1962
+    23_poststorage_storepost_user       0.96      0.88      0.92      2019
+       24_usertimeline_write_user       0.96      0.89      0.92      2033
+      25_redishashset_update_user       0.95      0.87      0.91      2052
+26_poststorage_storepost_uniqueid       0.94      0.87      0.91      2075
+   27_usertimeline_write_uniqueid       0.95      0.88      0.91      1975
+  28_redishashset_update_uniqueid       0.95      0.89      0.92      1951
+ 29_poststorage_storepost_mention       0.95      0.87      0.91      2047
+            2_mediaservice_upload       0.95      0.89      0.92      1985
+    30_usertimeline_write_mention       0.94      0.89      0.91      1980
+   31_redishashset_update_mention       0.94      0.88      0.91      1981
+             3_userservice_upload       0.95      0.88      0.91      1979
+             4_textservice_upload       0.93      0.88      0.91      2005
+                5_uniqueid_upload       0.94      0.87      0.91      1970
+        6_composepost_uploadmedia       0.94      0.88      0.91      1991
+      7_composepost_uploadcreator       0.94      0.89      0.91      1939
+              8_urlservice_upload       0.93      0.89      0.91      2020
+      9_usermentionservice_upload       0.95      0.87      0.91      2003
+                       no_anomaly       0.22      0.69      0.33      1981
+
+                         accuracy                           0.87     64000
+                        macro avg       0.92      0.87      0.89     64000
+                     weighted avg       0.92      0.87      0.89     64000
